@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5">
+
+    <Button
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yoga for ABS"
+        android:id="@+id/button2"
+        android:layout_weight="1" />
+
+    <Button
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yoga for Arms"
+        android:id="@+id/button4"
+        android:layout_weight="1" />
+
+    <Button
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Power Yoga"
+        android:id="@+id/button5"
+        android:layout_weight="1"  />
+
+    <Button
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yoga for Legs"
+        android:id="@+id/button3"
+        android:layout_weight="1" />
+
+    <Button
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yoga for Flexibility"
+        android:id="@+id/button6"
+        android:layout_weight="1" />
+</LinearLayout>
